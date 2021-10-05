@@ -3,7 +3,7 @@ const luckyNumber = document.querySelector("#lucky-number");
 const checkButton = document.querySelector("#check-button");
 const showMessage = document.querySelector("#output-container");
 
-var alert = (prompt("this site does not store data"));
+alert("This site does not store any data");
 
 function compareValues(sum, luckyNumber) {
     if(sum%luckyNumber===0){
