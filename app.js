@@ -3,7 +3,6 @@ const luckyNumber = document.querySelector("#lucky-number");
 const checkButton = document.querySelector("#check-button");
 const showMessage = document.querySelector("#output-container");
 
-alert("This site does not store any data");
 
 function compareValues(sum, luckyNumber) {
     if(sum%luckyNumber===0){
@@ -29,3 +28,5 @@ function calculateSum(dob) {
 }
 
 checkButton.addEventListener('click',checkBdayIsLucky);
+
+alert("This site does not store any data");
